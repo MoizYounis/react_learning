@@ -26,7 +26,7 @@ class Analysis extends Component {
                     <h1 className='serviceMainTitle'>TECHNOLOGY USED</h1>
                     <div className='bottom'></div>
                     <Row>
-                        <Col style={{ width:'50%', height:'300px' }} lg={6} md={12} sm={12}>
+                        <Col style={{height:'300px'}} lg={6} md={12} sm={12}>
                             <ResponsiveContainer>
                                 <BarChart width={100} height={300} data={this.state.data}>
                                     <XAxis dataKey="Technology"></XAxis>
@@ -34,7 +34,6 @@ class Analysis extends Component {
                                 <Bar dataKey="Projects" fill={blue}></Bar>
                                 </BarChart>
                             </ResponsiveContainer>
-
                         </Col>
 
                         <Col lg={6} md={12} sm={12}>
